@@ -1,0 +1,192 @@
+body{
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,11,92,1) 50%, rgba(0,0,0,1) 100%);
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.pagina-principal{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 99%;
+  
+  
+}
+
+
+.apresentaçao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 550px;
+
+     
+       
+}
+
+.logo{
+   margin: 50px 50px;
+  }
+.titulo-apresentaçao{
+    width: 45%;
+    background: rgb(255,248,0);
+    background: linear-gradient(90deg, rgba(255,248,0,0.8323704481792717) 0%, rgba(36,74,0,0.9500175070028011) 50%, rgba(20,0,0,1) 100%);
+    text-align: center;
+    border-radius: 5px;
+    font-size: 36px;
+     height: fit-content;
+     justify-self: end;
+     align-self: flex-end;
+     padding: 10px;
+    
+  }
+
+  .texto-apresentaçao{
+    background: rgb(118, 114, 1);
+    background: linear-gradient(90deg, rgba(184, 178, 2, 0.832) 0%, rgba(36, 74, 0, 0.737) 50%, rgba(20,0,0,1) 100%);
+    width: 65%;
+   border-radius: 5px;
+  font-size: 24px;
+  height: fit-content;
+  justify-self: end;
+  margin-top: 10px;
+  padding: 10px;
+
+
+
+
+ }
+
+
+
+
+.container-informaçoes{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 95%;
+    color: #ffffff;
+    position: absolute;
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+  }
+  #slider {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-color: aliceblue;
+    margin-top: 10px;
+  }
+  
+  #slider img{
+    position: absolute;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    transition: opacity 3s;
+    object-fit: cover;
+  
+  
+  }
+  
+  #slider img.selected{
+  
+    opacity: 1;
+  }
+
+
+  .serviços{
+    margin-top: 50px;
+    width: 100%;
+  
+    display: flex;
+    flex-direction: column;
+     align-items: center;
+     box-sizing: border-box;
+    
+     
+  }
+
+  .titulo-serviços{
+    color: white;
+    padding: 15px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-size: 34px;
+    margin: 10px;
+    
+
+  }
+
+  .lista-serviços{
+ 
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding: 10px;
+    margin: 20px;
+  }
+
+  .item-servico{
+    background: #ffffffb9;
+    display: flex;
+    width: 20%;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 15px 11px 15px 2px rgba(225, 255, 0, 0.231);
+    -webkit-box-shadow: 15px 11px 15px 2px rgba(255, 0, 0, 0.519);
+    -moz-box-shadow: 15px 11px 15px 2px rgba(225, 255, 0, 0.234);
+  }
+
+  .img-serviços{
+    padding:10px;
+  }
+
+  .titulo-item-servico{
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    padding: 15px;
+    margin-bottom: 20px;
+  }
+
+  .texto-item-servico{
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .link-contato{
+    display: flex;
+    color: white;
+    justify-content:space-between;
+    align-items: center;
+    font-size: 22px;
+    width: 200px;
+    margin: 20px;
+    padding: 10px 20px;
+    border-bottom: 3px solid rgb(104, 104, 10);
+    border-left: 2px solid red;
+    border-top: 1px solid black;
+    border-radius: 20px;
+    transition: 1s;
+  }
+
+  .link-contato:hover{
+
+    background-color: rgba(255, 0, 0, 0.655);
+    transition: 1s;
+   
+    border-bottom: 3px solid rgb(0, 0, 0);
+    
+  }
+
+  
+
+
+
