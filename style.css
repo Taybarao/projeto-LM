@@ -397,6 +397,7 @@ transition: 2.5s;
 background-image: url(https://i.pinimg.com/736x/c1/3a/4f/c13a4fb4b62ceba4e9133e946357bd39.jpg);
     border-radius: 20px;
     letter-spacing: 1.5px;
+    cursor: pointer;
 
       
 }
